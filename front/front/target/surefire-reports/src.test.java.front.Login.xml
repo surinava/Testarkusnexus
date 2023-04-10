@@ -1,0 +1,27 @@
+<testsuite failures="0" name="src/test/java/front/Login.feature" skipped="0" tests="2" time="10.615902">
+  <testcase classname="src.test.java.front.Login" name="Verify Email with out at" time="5.586058">
+    <system-out>* configure driver = { type: 'chrome', executable:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* def site = 'http://127.0.0.1:5173/login' ................................ passed
+Given driver site ......................................................... passed
+And input('input[name=email]', 'sevangelistaarkusnexus') .................. passed
+And input('input[name=password]', 'mipas') ................................ passed
+When click('{button}Login') ............................................... passed
+Then waitForText('body', 'Email must contain @.' ).screenshot() ........... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.front.Login" name="Verify Email with out at" time="5.029845">
+    <system-out>* configure driver = { type: 'chrome', executable:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* def site = 'http://127.0.0.1:5173/login' ................................ passed
+Given driver site ......................................................... passed
+And input('input[name=email]', 'sevangelistaarkusnexus') .................. passed
+And input('input[name=password]', 'mipas') ................................ passed
+When click('{button}Login') ............................................... passed
+Then waitForText('body', 'Email must contain @.' ).screenshot() ........... passed
+* configure driver = { type: 'chrome', executable:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* def site = 'http://127.0.0.1:5173/login' ................................ passed
+Given driver site ......................................................... passed
+And input('input[name=email]', 'surinava@gmail.com') ...................... passed
+And input('input[name=password]', 'Sonora78') ............................. passed
+When click('{button}Login') ............................................... passed
+Then waitForText('body', '' ).screenshot() ................................ passed</system-out>
+  </testcase>
+</testsuite>

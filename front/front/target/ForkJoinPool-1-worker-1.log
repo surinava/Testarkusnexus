@@ -1,0 +1,41 @@
+11:08:04.204 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:08:09.338 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:08:09.383 preferred port 9222 not available, will use: 53893
+11:08:15.029 waitUntil (js) - retry #1
+11:08:18.041 waitUntil (js) - retry #2
+11:08:21.051 waitUntil (js) - retry #3
+11:08:24.056 waitUntil (js): failed after 3 retries and 9040 milliseconds
+js) - retry #1
+09:56:13.744 waitUntil (js) - retry #2
+09:56:16.753 waitUntil (js) - retry #3
+09:56:19.761 waitUntil (js): failed after 3 retries and 9025 milliseconds
+09:56:19.800 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:56:19.804 preferred port 9222 not available, will use: 58084
+09:56:24.195 waitUntil (js) - retry #1
+09:56:27.210 waitUntil (js) - retry #2
+09:56:30.214 waitUntil (js) - retry #3
+09:56:33.224 waitUntil (js): failed after 3 retries and 9031 milliseconds
+09:56:33.244 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:56:33.248 preferred port 9222 not available, will use: 58137
+09:56:37.506 waitUntil (js) - retry #1
+09:56:40.523 waitUntil (js) - retry #2
+09:56:43.538 waitUntil (js) - retry #3
+09:56:46.541 waitUntil (js): failed after 3 retries and 9036 milliseconds
+09:56:46.573 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:56:46.579 preferred port 9222 not available, will use: 58190
+09:56:50.838 waitUntil (js) - retry #1
+09:56:53.840 waitUntil (js) - retry #2
+09:56:56.856 waitUntil (js) - retry #3
+09:56:59.874 waitUntil (js): failed after 3 retries and 9038 milliseconds
+09:56:59.892 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:56:59.898 preferred port 9222 not available, will use: 58246
+09:57:04.122 waitUntil (js) - retry #1
+09:57:07.127 waitUntil (js) - retry #2
+09:57:10.132 waitUntil (js) - retry #3
+09:57:13.148 waitUntil (js): failed after 3 retries and 9028 milliseconds
+09:57:13.165 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:57:13.168 preferred port 9222 not available, will use: 58299
+09:57:17.421 waitUntil (js) - retry #1
+09:57:20.437 waitUntil (js) - retry #2
+09:57:23.453 waitUntil (js) - retry #3
+09:57:26.457 waitUntil (js): failed after 3 retries and 9041 milliseconds

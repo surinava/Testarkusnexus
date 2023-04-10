@@ -1,0 +1,37 @@
+<testsuite failures="1" name="src/test/java/front/Register.feature" skipped="0" tests="2" time="19.787346">
+  <testcase classname="src.test.java.front.Register" name="Verify name Empty" time="5.072606">
+    <system-out>* configure driver = { type: 'chrome', executable:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* def site = 'http://127.0.0.1:5173/register' ............................. passed
+Given driver site ......................................................... passed
+And input('input[name=name]','' ) ......................................... passed
+And input('input[name=email]', 'surinava@gmail.com') ...................... passed
+And input('input[name=password]', 'Password') ............................. passed
+And input('input[name=passwordCheck]', 'Password') ........................ passed
+When click('{button}Register') ............................................ passed
+Then waitForText('body', 'Name is required.' ).screenshot() ............... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.front.Register" name="Verify name Numbers" time="14.71474">
+    <failure message="Register.feature:14 - evaluation (js) failed: waitForText('body', 'Name is required.' ).screenshot(), waitUntil (js): failed after 3 retries and 9040 milliseconds">* configure driver = { type: 'chrome', executable:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* def site = 'http://127.0.0.1:5173/register' ............................. passed
+Given driver site ......................................................... passed
+And input('input[name=name]','' ) ......................................... passed
+And input('input[name=email]', 'surinava@gmail.com') ...................... passed
+And input('input[name=password]', 'Password') ............................. passed
+And input('input[name=passwordCheck]', 'Password') ........................ passed
+When click('{button}Register') ............................................ passed
+Then waitForText('body', 'Name is required.' ).screenshot() ............... passed
+* configure driver = { type: 'chrome', executable:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', addOptions: ["--remote-allow-origins=*"] } . passed
+* def site = 'http://127.0.0.1:5173/register' ............................. passed
+Given driver site ......................................................... passed
+And input('input[name=name]','1234567890' ) ............................... passed
+And input('input[name=email]', 'surinava@gmail.com') ...................... passed
+And input('input[name=password]', 'Password') ............................. passed
+And input('input[name=passwordCheck]', 'Password') ........................ passed
+When click('{button}Register') ............................................ passed
+Then waitForText('body', 'Name is required.' ).screenshot() ............... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Register.feature:14 - evaluation (js) failed: waitForText('body', 'Name is required.' ).screenshot(), waitUntil (js): failed after 3 retries and 9040 milliseconds&#13;
+	at ✽.Then waitForText('body', 'Name is required.' ).screenshot() (Register.feature:14)</failure>
+  </testcase>
+</testsuite>
